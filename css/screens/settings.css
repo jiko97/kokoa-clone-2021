@@ -1,0 +1,50 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  transition: background-color 1s ease-in-out;
+}
+.settings__setting:hover {
+  background-color: var(--yellow);
+  opacity: 0.3;
+}
+.settings__setting-column {
+  position: relative;
+  cursor: pointer;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.7;
+}
+.settings__setting-column .badge {
+  background-color: tomato;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  font-size: 12px;
+  right: -25px;
+  bottom: 0;
+}
+.settings__setting i {
+  font-size: 22px;
+  margin-right: 20px;
+  opacity: 0.8;
+}
+.settings__setting span {
+  font-size: 20px;
+}
+.settings__setting:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.settings__list {
+  margin-top: -20px;
+}
