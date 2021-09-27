@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - Kokoa Clone</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://blog.kakaocdn.net/dn/Sq4OD/btqzlkr13eD/dYwFnscXEA6YIOHckdPDDk/img.jpg"
+    />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-lock"></i>
+        <span>78%</span>
+        <i class="fas fa-battery-three-quarters fa-lg"> </i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icon">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span class="screen-header__alarm"></span>
+        <span
+          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+
+    <main class="main-screen" role="main">
+      <div class="icon-raw">
+        <div class="icon-raw__icon">
+          <i class="fas fa-qrcode"></i><span>QR Code</span>
+        </div>
+        <div class="icon-raw__icon">
+          <i class="far fa-address-book"></i><span>Add by Contacts</span>
+        </div>
+        <div class="icon-raw__icon">
+          <i class="fas fa-fingerprint"></i><span>Add by ID</span>
+        </div>
+        <div class="icon-raw__icon">
+          <i class="far fa-envelope"></i><span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4 class="open-chat__title">Open Chat</h4>
+          <span
+            >Go to Openchat Home<i class="fas fa-chevron-right fa-xs"></i
+          ></span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__column__title">#NIKE</h5>
+            <h6 class="open-post__column__hashtags">#nike#shoes#dunk</h6>
+            <div class="open-post__column__members">
+              <img src="screenshot/profile.jpg" alt="dunk" />
+              <span class="open-post__column__members-count"
+                >1,024 members</span
+              >
+              <div class="divider"></div>
+              <span class="open-post__column__members-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__column__photo">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0473/6965/0340/products/626f36d597ee039ceb854ddfe22dfb9306c14203_Nike_Dunk_Low_Retro_PRM_Sail_Medium_Curry_Fossil_DD1390_100_os_3_1024x1024_crop_center.jpg?v=1629519384"
+                alt=""
+              />
+            </div>
+            <div class="open-post__column__heart-count">
+              <i class="fas fa-heart fa-xs"></i><span>326</span>
+            </div>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__column__title">#NIKE</h5>
+            <h6 class="open-post__column__hashtags">#nike#shoes#jordan</h6>
+            <div class="open-post__column__members">
+              <img src="screenshot/profile.jpg" alt="dunk" />
+              <span class="open-post__column__members-count"
+                >2,245 members</span
+              >
+              <div class="divider"></div>
+              <span class="open-post__column__members-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__column__photo">
+              <img
+                src="http://ccimg.hellomarket.com/images/2020/item/03/20/11/4846853_4370116_1.jpg?size=s6"
+                alt=""
+              />
+            </div>
+            <div class="open-post__column__heart-count">
+              <i class="fas fa-heart fa-xs"></i><span>894</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">11</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__alarm"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="mobile-ver">
+      <span>
+        Your screen is too big :-(<br />
+        Please access your phone.</span
+      >
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7899cd09d9.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
